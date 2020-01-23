@@ -1,0 +1,64 @@
+aside {
+  background-color: #fff;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+  border-radius: 5px;
+  padding: 30px 20px;
+  width: 400px;
+}
+
+aside strong {
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  color: #333;
+}
+
+aside form {
+  margin-top: 30px;
+}
+
+aside form > label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+aside form label input {
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+aside form .input-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+aside form button {
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #7d40e7;
+  cursor: pointer;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: ease all .2s;
+}
+aside form button:hover {
+    opacity: 0.9;
+}
+
+
+.input-block label {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-block label:first-child {
+  margin-right: 10px;
+}
